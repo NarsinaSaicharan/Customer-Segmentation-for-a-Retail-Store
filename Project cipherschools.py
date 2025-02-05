@@ -1,7 +1,7 @@
 
 import pandas as pd
 data = pd.read_csv("Mall_Customers.csv")
-# Display the first few rows of the dataset
+
 print(data.head(10))
 
 count=data.isnull().sum()
